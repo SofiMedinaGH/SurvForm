@@ -1,0 +1,48 @@
+body{
+  background-color: #FAF9E3;
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/washi.png");
+}
+#intro{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  }
+#title{
+  font-family: 'Gwendolyn', cursive;
+  font-size: 500%;
+  margin: 3% 0% -1% 0%;
+}
+#description{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+#surv-container{  
+  background-color: #ffffff;
+  margin: 0% 15% 15% 15%;
+  border-radius: 10%;
+}
+#survey-form {  
+  flex-wrap:wrap;
+  flex-direction: column;
+  text-align: justify;
+  margin: 0% 18% 0% 18%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+#name {
+  display: flex;
+  justify-content: ;
+  align-items: flex-start;
+}
+#submit-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1% 0% 0% 0%;
+}
+.contenido{
+  align-items: stretch; 
+  width: 100%;
+  height: auto;  
+}

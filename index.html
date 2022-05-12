@@ -1,0 +1,96 @@
+<doctype html>
+  <html>
+    <head>
+      <LINK REL=StyleSheet HREF="estilo.css" TYPE="text/css" MEDIA=screen>
+      <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Raleway:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <div id="intro">
+        <h1 id="title">Le Fleur Spa</h1> 
+        <p id="description">Ayúdenos a mejorar nuestro servicio</p>
+      </div>
+      <div id="surv-container">
+        <form id="survey-form">
+          <br>
+          <br>
+          <p>Nombre</p>
+          <label id="name-label" for="name">
+            <input id="name" class="contenido" type="text" placeholder="Ingrese su nombre" required>
+          </label>
+          <br>
+          <p>E-mail</p>
+          <label id="email-label" for="email" >
+            <input id="email" class="contenido" type="email" placeholder="Ingrese su dirección de e-mail" required>
+          </label>
+          <br>
+          <p>Edad (opcional)</p>
+          <label id="number-label" for="number">
+            <input id="number" class="contenido" type="number" type="range" min="1" max="100" placeholder="Ingrese su edad">
+          </label>
+          <br>
+          <p>Sucursal</p>
+          <label id="dropdown-label" for="dropdown">
+            <select id="dropdown" class="contenido" name="sucursales">
+              <option value="caballito">Caballito</option>
+              <option value="nunez">Núñez</option>
+              <option value="palermo">Palermo</option>
+              <option value="recoleta">Recoleta</option>
+              <option value="san-isidro">San Isidro</option>
+            </select>
+          </label>
+          <br>
+          <p>¿Recomendaría nuestro Spa a sus amigos y/o familiares?</p>
+          <label for="si">
+            <input id="si" value="si" type="radio" name="si-no">Sí
+          </label>
+          <label for="no">
+            <input id="no" value="no" type="radio" name="si-no">No
+          </label>
+          <br>
+          <p>De los siguientes tratamientos, ¿cuáles estaría interesado/a en conocer?</p>
+          <label for="piedrascalientes">
+            
+          <input id="piedrascalientes" value="piedrascalientes"  type="checkbox" name="sugerencia-tratam">Masaje con piedras calientes
+          </label>
+          <br>
+          <label for="pulido-corporal"> 
+            <input id="pulido-corporal" value="pulido-corporal"  type="checkbox" name="sugerencia-tratam">Pulido corporal
+          </label>
+          <br>
+          <label for="camilla-termica"> 
+            <input id="camilla-termica" value="camilla-termica"  type="checkbox" name="sugerencia-tratam">Camilla térmica
+          </label>
+          <br>
+          <label for="mascarilla-led"> 
+            <input id="mascarilla-led" value="mascarilla-led"  type="checkbox" name="sugerencia-tratam">Mascarilla Led
+          </label>
+          <br>
+          <label for="ducha-vapor"> 
+            <input id="ducha-vapor" value="ducha-vapor"  type="checkbox" name="sugerencia-tratam">Ducha de vapor
+          </label>
+          <br>
+          <label for="ultra-facial"> 
+            <input id="ultra-facial" value="ultra-facial"  type="checkbox" name="sugerencia-tratam">Ultracavitación facial
+          </label>
+          <br>
+          <label for="lifting-cap"> 
+            <input id="lifting-cap" value="lifting-cap"  type="checkbox" name="sugerencia-tratam">Lifting capilar
+          </label>
+          <br>
+          
+            <p>¿Otras sugerencias y/o comentarios? Por favor, escriba sus opiniones en el siguiente cuadro:</p>
+            <label for="comentarios">
+              <textarea id="comentarios" class="contenido" placeholder="Ingrese sus sugerencias y/o comentarios" rows="4" cols="50" maxlength="250"></textarea>
+            </label>
+          
+          <br>
+          <br>
+          <br>
+          <div id="submit-button">
+            <button  id="submit" type="submit">Enviar</button>
+          </div>
+          <br>
+        </form>
+       </div>
+    </body>  
+  </html>
